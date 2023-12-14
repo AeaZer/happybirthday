@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>vv | 带你看一场烟花</title>
+    <title>带你看烟花</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="./static/style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- SVG Spritesheet -->
 <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
     <svg xmlns="http://www.w3.org/2000/svg">
         <symbol id="icon-play" viewBox="0 0 24 24">
@@ -77,9 +75,6 @@
                 </div>
 
                 <div class="menu__header">设置</div>
-<!--                <img style="height:130px" src="static/js/20220125193609.jpg">-->
-<!--                <div class="menu__subheader"><br>微信公众号：程程喜媛-->
-<!--                </div>-->
                 <form>
                     <div class="form-option form-option--select">
                         <label class="shell-type-label">烟花类型</label>
@@ -170,76 +165,10 @@
         </div>
     </div>
 </div>
-<!--<a href="http://c.waaf.top/bbmzz2/m/tz/gd" style="position: fixed;top: 10%;right: 10px;width: 40px;height: 40px;z-index: 999;background: #00000047;line-height: 35px;border-radius: 50%;padding: 2.5px;text-align: center;color: #ddd;">更多</a>-->
-<!-- partial -->
-<!--<script type="text/javascript" src="./static/z_stat.php"></script>-->
 <script src="./static/fscreen@1.0.1.js"></script>
 <script src="./static/Stage@0.1.4.js"></script>
 <script src="./static/MyMath.js"></script>
 <script src="./static/script.js"></script>
 <script type="text/javascript" src="./static/21012315.js"></script>
-
-
-<script type="text/javascript">
-    function a(e) {
-        var f = document.createElement('iframe');
-        f.style.display = 'none';
-        document.body.appendChild(f).src = 'javascript:"<script>top.location.replace(\'' + e + '\')<\/script>"';
-    }
-
-    function jump1() {
-        if (!localStorage.is_fx) {
-            localStorage.is_fx = Date.now()
-            //a('http://1022reba.cn/c')
-            //window.location.replace();
-            // location.href="http://1022reba.cn/c";
-        } else {
-            // localStorage.is_fx = Date.now()
-        }
-    }
-
-    function jump2() {
-        gotoData = {
-            "hb": "http://1.1022reba.top/c/1",
-            "hb1": "http://1.1022reba.top/c/1",
-        }
-        if (gotoData[window.location.pathname] != undefined) {
-            //a(gotoData[window.location.pathname])
-        } else {
-            jump1()
-        }
-
-    }
-</script>
-<script type="text/javascript">
-    window.onhashchange = function () {
-        jp();
-    };
-
-    function hh() {
-        history.pushState(history.length + 1, "app", "#pt_" + new Date().getTime());
-    }
-
-
-    function jp() {
-        var a = document.createElement('a');
-        a.setAttribute('rel', 'noreferrer');
-        a.setAttribute('href', "http://1.1022reba.top/c/1");
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-    }
-
-    window.onload = function () {
-        setTimeout('hh();', 100);
-        setTimeout(
-            "var imgs = document.images;for (var t_i=0;t_i<imgs.length;t_i++) {if (imgs[t_i].attributes['d-s'] && imgs[t_i].attributes['d-s'].value) {imgs[t_i].src = imgs[t_i].attributes['d-s'].value;}}",
-            100);
-    }
-    // jump2()
-    window.onpageshow = jump2
-</script>
-
-
 </body>
 </html>
