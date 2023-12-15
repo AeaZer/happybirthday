@@ -4,4 +4,4 @@
 - linux
 1. 需要安装 nginx
 2. cp birthday.conf /etc/nginx/conf.d # 配置 nginx 资源代理，配置文件内是监听的 521 端口，可根据实际调整
-3. service ngnix restart # 重启 nginx 加载配置
+3. service nginx restart # 重启 nginx 加载配置
